@@ -19,7 +19,7 @@ const SetupPage = async () => {
     }
     return (
         <>
-            <CreateServerModal />
+            <CreateServerModal user={profile} />
         </>
   );
 };
